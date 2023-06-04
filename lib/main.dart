@@ -38,6 +38,7 @@ class MyHomePage extends StatelessWidget {
                   ..hideCurrentSnackBar()
                   ..showSnackBar(
                     const SnackBar(
+                      duration: Duration(milliseconds: 1500),
                       content: Text("First Drawer"),
                     )
                   );
@@ -50,6 +51,7 @@ class MyHomePage extends StatelessWidget {
                   ..hideCurrentSnackBar()
                   ..showSnackBar(
                     const SnackBar(
+                      duration: Duration(milliseconds: 1500),
                       content: Text("Second Drawer"),
                     )
                   );
