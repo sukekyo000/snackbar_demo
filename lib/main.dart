@@ -36,9 +36,9 @@ class MyHomePage extends StatelessWidget {
               onPressed: () {
                 ScaffoldMessenger.of(context)
                   .showSnackBar(
-                      const SnackBar(
-                        content: Text("First Drawer"),
-                      )
+                    const SnackBar(
+                      content: Text("First Drawer"),
+                    )
                   );
               },
               child: const Text("First Drawer"),
@@ -46,11 +46,11 @@ class MyHomePage extends StatelessWidget {
             ElevatedButton(
               onPressed: () {
                 ScaffoldMessenger.of(context)
-                    .showSnackBar(
+                  .showSnackBar(
                     const SnackBar(
                       content: Text("Second Drawer"),
                     )
-                );
+                  );
                 },
               child: const Text("Second Drawer"),
             ),
